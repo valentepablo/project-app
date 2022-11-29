@@ -7,7 +7,7 @@ import { ProjectProvider } from './context/ProjectContext';
 function App() {
   return (
     <ProjectProvider>
-      <div className='App'>
+      <div className='flex h-screen gap-8 p-4 bg-slate-50'>
         <Router>
           <Sidebar />
           <Routes>
